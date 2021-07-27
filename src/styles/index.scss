@@ -1,0 +1,99 @@
+@import './elementPlus.scss';
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+  box-sizing: border-box;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.fw-b {
+  font-weight: bold;
+} 
+
+.ta-c {
+  text-align: center;
+}
+
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.m-b10 {
+  margin-bottom: 10px;
+}
+
+.m-t10 {
+  margin-top: 10px;
+}

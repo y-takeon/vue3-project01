@@ -1,19 +1,5 @@
-# vue3-manage-system
 
-## Project setup
-```
-yarn install
-```
+## 功能
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-  [x] Element Plus 按需加载
+-  [x] 国际化
